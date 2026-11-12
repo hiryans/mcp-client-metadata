@@ -1,0 +1,12 @@
+{
+  "client_id": "https://hiryans.github.io/mcp-client-metadata/oauth/client.json",
+  "client_name": "mcp-remote for Raycast",
+  "client_uri": "https://github.com/hiryans/mcp-client-metadata",
+  "redirect_uris": [
+    "http://localhost:15847/oauth/callback",
+    "http://127.0.0.1:15847/oauth/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
